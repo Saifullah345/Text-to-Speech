@@ -2,7 +2,7 @@ import streamlit as st
 import gtts
 import tempfile
 
-
+# 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
 def text_to_speech(text):
     try:
         speech = gtts.gTTS(text=text)
